@@ -40,15 +40,15 @@ intents.matches('None', '/none')
 //=========================================================
 
 bot.dialog('/none', function(session){
-    session.send("No intent");
+    session.send("Hello!");
 })
 
 bot.dialog('/getWeather', function(session){
     //Add custom code here to implent get weather feature
-    session.send("GetWeather intent");
+    session.send("You want to know the weather?");
 })
 
 bot.dialog('/bookFlight', function(session){
     //Add custom code here to implent book flight feature
-    session.send("BookFlight intent");
+    session.send("You want to book a flight?");
 })
